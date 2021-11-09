@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 700;
+    color: white;
+}
+
+ul {
+    list-style: lower-roman;
+}
+
+#profilepic {
+    width: 100%;
+    border-radius: 3% 3% 0% 0%;
+}
+
+#index {
+    text-align: left;
+}
+
+#boticon {
+    width: 100%;
+    border-radius: 3% 3% 0% 0%;
+}
+
+#name {
+    display: flex;
+    width: 34%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon {
+    width: 25px;
+    height: 25px;
+}
+
+#profile {
+    order: 1;
+}
+
+#randomsite {
+    order: 2; 
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 3%;
+    transition-duration: 0.5s;
+}
+
+#sponge {
+    order: 3;
+}
+
+#navlink:link, #navlink:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#navlink:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #03c2fc;
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    width: 33%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #03c2fc;
+    color: white;
+    margin-bottom: 1%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.cardtext {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 5px gainsboro;
+    transition-duration: 0.5s;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    width: 100%;
+    order: 1;
+    background-color: aliceblue;
+    border-radius: 3%;
+    text-align: center;
+    transition-duration: 0.5s;
+    margin-bottom: 3%;
+}
+
+.sidebar {
+    display: flex;
+    flex-flow: column nowrap;
+    order: 1;
+    width: 25%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    order: 2;
+    width: 75%;
+    margin-left: 2%;
+    padding: 0;
+}

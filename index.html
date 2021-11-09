@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Mario Merlo</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="navbar">
+                <h3><a href="./index.html" id="navlink">Home</a></h3>
+                <h3><a href="./poli.html" id="navlink">PoliResourceBot</a></h3>
+                <h3><a href="./notes.html" id="navlink">Notes</a></h3>
+            </div>
+
+            <h1 id="name">Mario Merlo</h1>
+
+            <div class="icons">
+                <a href="mailto:mario.merlo922@gmail.com"><img src="src/email.png" alt="Email" id="icon"></a>
+                <a href="https://github.com/MrVideo" target="_blank"><img src="src/github.png" alt="GitHub" id="icon"></a>
+                <a href="https://discord.com/users/273540691324436481" target="_blank"><img src="src/discord.svg" alt="Discord" id="icon"></a>
+                <a href="https://twitter.com/GDSCMario" target="_blank"><img src="src/twitter.png" alt="Twitter" id="icon"></a>
+                <a href="https://linkedin.com/in/mario-merlo" target="_blank"><img src="src/linkedin.png" alt="Linkedin" id="icon"></a>
+                <a href="https://read.cv/mrvideo" target="_blank"><img src="src/readcv.png" alt="read.cv" id="icon"></a>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="sidebar">
+                <div class="card" id="profile">
+                    <img src="src/mario.jpg" id="profilepic">
+                    <div class="cardtext">
+                        <h2>Mario Merlo</h2>
+                        <h3>Computer Engineering Student</h3>
+                    </div>
+                </div>
+
+                <div class="card" id="randomsite">
+                    <div class="cardtext">
+                        <h3>Good websites</h3>
+                        <p>A collection of fun websites. Click the button below to open a random page.</p>
+                        <button onclick="rand()">Click me!</button>
+                    </div>
+                </div>
+
+                <div class="card" id="sponge">
+                    <div class="cardtext">
+                        <h3>Text Spongifier</h3>
+                        <p>Enter a string in the field below to have it spondified.</p>
+                        <input type="text" id="string">
+                        <button onclick="sponge()">Spongify!</button>
+                        <p id="result"></p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="info">
+
+                <div class="about">
+                    <h2>About me</h2>
+                    <p>I am a Computer Engineering student at Politecnico di Milano.
+                    I am a drummer and I enjoy making my own projects in my free time.
+                    I am trying to learn as much as I can, so that I can be as proficient as I can with code.</p>
+                </div>
+
+                <div class="works">
+                    <h2>My works</h2>
+                
+                        <ul>
+                            <li><b><a href="https://github.com/MrVideo/PoliResourceBot" target="_blank">PoliResourceBot</a></b>: a Discord bot made with Python and the discord.py library to retrieve various information about my university. You can view its documentation <a href="poli.html">here</a>.</li>
+                            <li><b><a href="https://github.com/MrVideo/Spongebot" target="_blank">Spongebot Squarepants</a></b>: a Discord bot made with Python and the discord.py library to convert a string to spongetext.</li>
+                            <li><b><a href="https://github.com/MrVideo/InflationCalculator" target="_blank">Inflation Calculator</a></b>: a Python script that uses pandas to create a DataFrame from a .csv file containing inflation information and converts the Italian Lira to Euro and viceversa.</li>
+                            <li><b><a href="https://github.com/MrVideo/SpongeText" target="_blank">SpongeText</a></b>: a website to convert a string to spongetext. Made with HTML, CSS and JavaScript.</li>
+                            <li><b><a href="https://github.com/MrVideo/mrvideo.github.io" target="_blank">This portfolio</a></b>: you can find all the code that went into this website by clicking the link here. It's mostly HTML and CSS, with a little JavaScript for the button on the sidebar, and it's hosted through GitHub Pages.</li>
+                        </ul>
+                </div>
+
+                <div class="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li><b>Politecnico di Milano</b> - 2020/2023: BSc Computer Engineering</li>
+                        <li><b>I.I.S. G. Parodi</b> - 2015/2020: Maturit&agrave Scientifica, final grade: 100/100</li>
+                    </ul>
+                </div>
+
+                <div class="activities">
+                    <h2>Activities</h2>
+                    <ul>
+                        <li><b>Community Lead at GDSC PoliMi</b> - 2021/2022: I was selected as this year's lead at the Google Developer Student Club at my university and I am growing the community and organising events to give students a better view at the practical side of Computer Science.</li>
+                        <li><b>Social Media Manager at GDSC PoliMi</b> - 2020/2021: I joined GDSC this year and was selected to be the Social Media Manger. I expanded our community through new platforms like Instagram, Discord, Telegram and more. We reached 1200+ members last year and our community keeps on growing to this day.</li>
+                        <li><b>r/LearningJapanese Discord Server</b> - 2020, Ongoing: my mod team and I created this Discord server in order to help enthusiasts learn Japanese in a more social and friendly way. We are about to reach 1000 members now and the community is very close: we treat one another like family members.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>

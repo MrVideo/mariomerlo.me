@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Mario Merlo</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="navbar">
+                <h3><a href="./index.html" id="navlink">Home</a></h3>
+                <h3><a href="./poli.html" id="navlink">PoliResourceBot</a></h3>
+                <h3><a href="./notes.html" id="navlink">Notes</a></h3>
+            </div>
+
+            <h1 id="name">Mario Merlo</h1>
+
+            <div class="icons">
+                <a href="mailto:mario.merlo922@gmail.com"><img src="src/email.png" alt="Email" id="icon"></a>
+                <a href="https://github.com/MrVideo" target="_blank"><img src="src/github.png" alt="GitHub" id="icon"></a>
+                <a href="https://discord.com/users/273540691324436481" target="_blank"><img src="src/discord.svg" alt="Discord" id="icon"></a>
+                <a href="https://twitter.com/GDSCMario" target="_blank"><img src="src/twitter.png" alt="Twitter" id="icon"></a>
+                <a href="https://linkedin.com/in/mario-merlo" target="_blank"><img src="src/linkedin.png" alt="Linkedin" id="icon"></a>
+                <a href="https://read.cv/mrvideo" target="_blank"><img src="src/readcv.png" alt="read.cv" id="icon"></a>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="sidebar">
+                <div class="card">
+                    <img src="./src/policon.png" alt="Bot Icon" id="boticon">
+                    <div class="cardtext">
+                        <h3>Quick Command List</h3>
+                        <ul>
+                            <li id="index"><a href="#indexhelp"><code>help</code></a></li>
+                            <li id="index"><a href="#indexabout"><code>about</code></a></li>
+                            <li id="index"><a href="#indexres"><code>res</code></a></li>
+                            <li id="index"><a href="#indexwebex"><code>webex</code></a></li>
+                            <li id="index"><a href="#indexreload"><code>reload</code></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <h2 id="top">PoliResourceBot</h2>
+                <p>This is a bot made for Politecnico di Milano students like me. It can help retrieve useful information about our university and courses. It's a work in progress, I am adding features and resources to enhance the experience. You can view the code for this bot <a href="https://github.com/MrVideo/PoliResourceBot">here</a>. Feel free to add your code through a pull request!</p>
+                
+                <h2>Bot commands</h2>
+                
+                <h3>Prefix</h3>
+                <p>The bot's prefix is <code>?</code>. It currently cannot be changed, but I will be adding that feature in the future.</p>
+                
+                <h3 id="indexhelp"><code>help</code></h3>
+                <p><b>Syntax:</b> <code>$help</code></p>
+                <p>Type <code>$help</code> to see a list of commands and quick syntax to deploy them.</p>
+                <a href="#top">Back to top</a>
+                
+                <h3 id="indexabout"><code>about</code></h3>
+                <p><b>Syntax:</b> <code>$about</code></p>
+                <p>Type <code>$about</code> to receive information about the bot itself, like its GitHub repo.</p>
+                <a href="#top">Back to top</a>
+                
+                <h3 id="indexres"><code>res</code></h3>
+                <p><b>Syntax:</b> <code>$res list/[number]</code></p>
+                <p>This command takes one of two parameters: a number, or the string <code>list</code>. When <code>$res list</code> is invoked, a list of all the resources the bot knows will be listed through an embed. You can retrieve any of those by typing <code>$res [number]</code> (without brackets).</p>
+                <a href="#top">Back to top</a>
+
+                <h3 id="indexwebex"><code>webex</code></h3>
+                <p><b>Syntax:</b> <code>$webex [prof/subj] [name]</code></p>
+                <p>This command takes two parameters: the <code>type</code> parameter, which can have the values <code>prof</code> or <code>subj</code>, and the <code>name</code> parameter, in this order. When <code>$webex prof [name]</code> is invoked, a list of teachers with their respective Webex Meet link will appear based on the name given. Otherwise, if <code>$webex subj [name]</code> is invoked, the bot will search the same list of teachers by subject name.</p>
+                <a href="#top">Back to top</a>
+
+                <h3 id="indexreload"><code>reload</code></h3>
+                <p><b>Syntax:</b> <code>$reload</code></p>
+                <p>This command is a hot reload command. It can be invoked to refresh the resource files, in case they were recently modified, without needing to restart the bot.</p>
+                <a href="#top">Back to top</a>
+            </div>
+
+        </div>
+    </body>
+</html>
