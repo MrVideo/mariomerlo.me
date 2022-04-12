@@ -51,8 +51,12 @@ ul {
     order: 1;
 }
 
+#podcast-widget {
+    order: 2;
+}
+
 #randomsite {
-    order: 2; 
+    order: 3; 
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
@@ -61,7 +65,7 @@ ul {
 }
 
 #sponge {
-    order: 3;
+    order: 4;
 }
 
 #navlink:link, #navlink:visited {
