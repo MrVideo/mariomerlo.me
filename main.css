@@ -20,7 +20,7 @@ ul {
     height: 100px;
 }
 
-#profilepic {
+.cardpic {
     width: 100%;
     border-radius: 3% 3% 0% 0%;
 }
@@ -47,7 +47,7 @@ ul {
     height: 25px;
 }
 
-#profile {
+#podcast {
     order: 1;
 }
 
