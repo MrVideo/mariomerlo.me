@@ -8,7 +8,16 @@ html {
 
 h1 {
     font-weight: 700;
-    color: white;
+    color: #FCFFF5;
+}
+
+p, ul, ol, h2, h3 {
+    color: #FCFFF5;
+}
+
+body {
+    background-color: #193441;
+    margin: 0%;
 }
 
 ul {
@@ -52,12 +61,7 @@ ul {
 }
 
 #randomsite {
-    order: 2; 
-    align-items: center;
-    justify-content: center;
-    background-color: aliceblue;
-    border-radius: 3%;
-    transition-duration: 0.5s;
+    order: 2;
 }
 
 #sponge {
@@ -65,22 +69,22 @@ ul {
 }
 
 #navlink:link, #navlink:visited {
-    color: white;
+    color: #FCFFF5;
     text-decoration: none;
 }
 
 #navlink:hover {
-    color: white;
+    color: #FCFFF5;
     text-decoration: underline;
 }
 
 a:link, a:visited {
-    color: black;
+    color: #FCFFF5;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #03c2fc;
+    color: #FCFFF5;
     text-decoration: underline;
 }
 
@@ -103,8 +107,8 @@ a:hover {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #03c2fc;
-    color: white;
+    background-color: #3E606F;
+    color: #FCFFF5;
     margin-bottom: 1%;
 }
 
@@ -126,7 +130,7 @@ a:hover {
 }
 
 .card:hover {
-    box-shadow: 3px 3px 5px gainsboro;
+    box-shadow: 3px 3px 5px #314d59;
     transition-duration: 0.5s;
 }
 
@@ -136,7 +140,7 @@ a:hover {
     justify-self: start;
     width: 100%;
     order: 1;
-    background-color: aliceblue;
+    background-color: #3E606F;
     border-radius: 3%;
     text-align: center;
     transition-duration: 0.5s;
@@ -148,6 +152,7 @@ a:hover {
     flex-flow: column nowrap;
     order: 1;
     width: 25%;
+    margin-left: 1%;
 }
 
 .info {
@@ -158,4 +163,5 @@ a:hover {
     width: 75%;
     margin-left: 2%;
     padding: 0;
+    margin-right: 1%;
 }
