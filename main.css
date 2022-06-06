@@ -24,6 +24,10 @@ ul {
     list-style: lower-roman;
 }
 
+li {
+    margin-bottom: 1%;
+}
+
 #logo {
     width: 100px;
     height: 100px;
@@ -68,19 +72,9 @@ ul {
     order: 3;
 }
 
-#navlink:link, #navlink:visited {
-    color: #FCFFF5;
-    text-decoration: none;
-}
-
-#navlink:hover {
-    color: #FCFFF5;
-    text-decoration: underline;
-}
-
 a:link, a:visited {
     color: #FCFFF5;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
